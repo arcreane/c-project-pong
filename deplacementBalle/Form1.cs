@@ -18,15 +18,23 @@ namespace deplacementBalle
 
         public Form1()
         {
+
             InitializeComponent();
+
+            pbRaquetteDroite.Image = deplacementBalle.Properties.Resources.Palette;
+            pbRaquetteGauche.Image = deplacementBalle.Properties.Resources.Palette;
+            pbBallle.Image = deplacementBalle.Properties.Resources.ball_green;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             int x = pbBallle.Location.X; //Balle X
             int y = pbBallle.Location.Y; //Balle Y
-            int xd = pbRaquetteDroite.Location.X; //Balle X
-            int yd = pbRaquetteDroite.Location.Y; //Balle Y
+            int xd = pbRaquetteDroite.Location.X;
+            int yd = pbRaquetteDroite.Location.Y; 
+            int xg = pbRaquetteGauche.Location.X; 
+            int yg = pbRaquetteGauche.Location.Y; 
+
 
             if (y + pbBallle.Height >= groupBox1.Height)
             {
@@ -63,7 +71,7 @@ namespace deplacementBalle
 
                 sensX = +20;
 
-                if (y + (pbBallle.Height / 2) < yd + (pbRaquetteGauche.Height / 2))
+                if (y + (pbBallle.Height / 2) < yg + (pbRaquetteGauche.Height / 2))
                 {
                     sensY = -20; 
                 }

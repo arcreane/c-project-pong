@@ -48,7 +48,7 @@
             this.groupBox1.Controls.Add(this.pbBallle);
             this.groupBox1.Location = new System.Drawing.Point(12, -9);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(938, 461);
+            this.groupBox1.Size = new System.Drawing.Size(1181, 461);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             // 
@@ -65,7 +65,7 @@
             // pbRaquetteDroite
             // 
             this.pbRaquetteDroite.Image = ((System.Drawing.Image)(resources.GetObject("pbRaquetteDroite.Image")));
-            this.pbRaquetteDroite.Location = new System.Drawing.Point(907, 117);
+            this.pbRaquetteDroite.Location = new System.Drawing.Point(1150, 117);
             this.pbRaquetteDroite.Name = "pbRaquetteDroite";
             this.pbRaquetteDroite.Size = new System.Drawing.Size(25, 157);
             this.pbRaquetteDroite.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -92,7 +92,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(975, 451);
+            this.ClientSize = new System.Drawing.Size(1191, 451);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
